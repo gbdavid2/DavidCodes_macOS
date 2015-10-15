@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D8A13CA1BCF9C6600869363 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8A13C91BCF9C6600869363 /* AppDelegate.swift */; };
+		2D8A13CC1BCF9C6600869363 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8A13CB1BCF9C6600869363 /* ViewController.swift */; };
+		2D8A13CE1BCF9C6600869363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D8A13CD1BCF9C6600869363 /* Assets.xcassets */; };
+		2D8A13D11BCF9C6600869363 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D8A13CF1BCF9C6600869363 /* Main.storyboard */; };
+		2D8A13DC1BCF9C6600869363 /* Agent_Based_App_with_StoryboardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8A13DB1BCF9C6600869363 /* Agent_Based_App_with_StoryboardsTests.swift */; };
+		2D8A13E71BCF9C6600869363 /* Agent_Based_App_with_StoryboardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8A13E61BCF9C6600869363 /* Agent_Based_App_with_StoryboardsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D8A13D81BCF9C6600869363 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D8A13BE1BCF9C6500869363 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D8A13C51BCF9C6500869363;
+			remoteInfo = "Agent Based App with Storyboards";
+		};
+		2D8A13E31BCF9C6600869363 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D8A13BE1BCF9C6500869363 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D8A13C51BCF9C6500869363;
+			remoteInfo = "Agent Based App with Storyboards";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D8A13C61BCF9C6500869363 /* Agent Based App with Storyboards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Agent Based App with Storyboards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D8A13C91BCF9C6600869363 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D8A13CB1BCF9C6600869363 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D8A13CD1BCF9C6600869363 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D8A13D01BCF9C6600869363 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D8A13D21BCF9C6600869363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D8A13D71BCF9C6600869363 /* Agent Based App with StoryboardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Agent Based App with StoryboardsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D8A13DB1BCF9C6600869363 /* Agent_Based_App_with_StoryboardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agent_Based_App_with_StoryboardsTests.swift; sourceTree = "<group>"; };
+		2D8A13DD1BCF9C6600869363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D8A13E21BCF9C6600869363 /* Agent Based App with StoryboardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Agent Based App with StoryboardsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D8A13E61BCF9C6600869363 /* Agent_Based_App_with_StoryboardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agent_Based_App_with_StoryboardsUITests.swift; sourceTree = "<group>"; };
+		2D8A13E81BCF9C6600869363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D8A13C31BCF9C6500869363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D8A13D41BCF9C6600869363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D8A13DF1BCF9C6600869363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D8A13BD1BCF9C6500869363 = {
+			isa = PBXGroup;
+			children = (
+				2D8A13C81BCF9C6500869363 /* Agent Based App with Storyboards */,
+				2D8A13DA1BCF9C6600869363 /* Agent Based App with StoryboardsTests */,
+				2D8A13E51BCF9C6600869363 /* Agent Based App with StoryboardsUITests */,
+				2D8A13C71BCF9C6500869363 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D8A13C71BCF9C6500869363 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D8A13C61BCF9C6500869363 /* Agent Based App with Storyboards.app */,
+				2D8A13D71BCF9C6600869363 /* Agent Based App with StoryboardsTests.xctest */,
+				2D8A13E21BCF9C6600869363 /* Agent Based App with StoryboardsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D8A13C81BCF9C6500869363 /* Agent Based App with Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2D8A13C91BCF9C6600869363 /* AppDelegate.swift */,
+				2D8A13CB1BCF9C6600869363 /* ViewController.swift */,
+				2D8A13CD1BCF9C6600869363 /* Assets.xcassets */,
+				2D8A13CF1BCF9C6600869363 /* Main.storyboard */,
+				2D8A13D21BCF9C6600869363 /* Info.plist */,
+			);
+			path = "Agent Based App with Storyboards";
+			sourceTree = "<group>";
+		};
+		2D8A13DA1BCF9C6600869363 /* Agent Based App with StoryboardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D8A13DB1BCF9C6600869363 /* Agent_Based_App_with_StoryboardsTests.swift */,
+				2D8A13DD1BCF9C6600869363 /* Info.plist */,
+			);
+			path = "Agent Based App with StoryboardsTests";
+			sourceTree = "<group>";
+		};
+		2D8A13E51BCF9C6600869363 /* Agent Based App with StoryboardsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D8A13E61BCF9C6600869363 /* Agent_Based_App_with_StoryboardsUITests.swift */,
+				2D8A13E81BCF9C6600869363 /* Info.plist */,
+			);
+			path = "Agent Based App with StoryboardsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D8A13C51BCF9C6500869363 /* Agent Based App with Storyboards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D8A13EB1BCF9C6600869363 /* Build configuration list for PBXNativeTarget "Agent Based App with Storyboards" */;
+			buildPhases = (
+				2D8A13C21BCF9C6500869363 /* Sources */,
+				2D8A13C31BCF9C6500869363 /* Frameworks */,
+				2D8A13C41BCF9C6500869363 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Agent Based App with Storyboards";
+			productName = "Agent Based App with Storyboards";
+			productReference = 2D8A13C61BCF9C6500869363 /* Agent Based App with Storyboards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D8A13D61BCF9C6600869363 /* Agent Based App with StoryboardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D8A13EE1BCF9C6600869363 /* Build configuration list for PBXNativeTarget "Agent Based App with StoryboardsTests" */;
+			buildPhases = (
+				2D8A13D31BCF9C6600869363 /* Sources */,
+				2D8A13D41BCF9C6600869363 /* Frameworks */,
+				2D8A13D51BCF9C6600869363 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D8A13D91BCF9C6600869363 /* PBXTargetDependency */,
+			);
+			name = "Agent Based App with StoryboardsTests";
+			productName = "Agent Based App with StoryboardsTests";
+			productReference = 2D8A13D71BCF9C6600869363 /* Agent Based App with StoryboardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D8A13E11BCF9C6600869363 /* Agent Based App with StoryboardsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D8A13F11BCF9C6600869363 /* Build configuration list for PBXNativeTarget "Agent Based App with StoryboardsUITests" */;
+			buildPhases = (
+				2D8A13DE1BCF9C6600869363 /* Sources */,
+				2D8A13DF1BCF9C6600869363 /* Frameworks */,
+				2D8A13E01BCF9C6600869363 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D8A13E41BCF9C6600869363 /* PBXTargetDependency */,
+			);
+			name = "Agent Based App with StoryboardsUITests";
+			productName = "Agent Based App with StoryboardsUITests";
+			productReference = 2D8A13E21BCF9C6600869363 /* Agent Based App with StoryboardsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D8A13BE1BCF9C6500869363 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "David Codes";
+				TargetAttributes = {
+					2D8A13C51BCF9C6500869363 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					2D8A13D61BCF9C6600869363 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 2D8A13C51BCF9C6500869363;
+					};
+					2D8A13E11BCF9C6600869363 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 2D8A13C51BCF9C6500869363;
+					};
+				};
+			};
+			buildConfigurationList = 2D8A13C11BCF9C6500869363 /* Build configuration list for PBXProject "Agent Based App with Storyboards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D8A13BD1BCF9C6500869363;
+			productRefGroup = 2D8A13C71BCF9C6500869363 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D8A13C51BCF9C6500869363 /* Agent Based App with Storyboards */,
+				2D8A13D61BCF9C6600869363 /* Agent Based App with StoryboardsTests */,
+				2D8A13E11BCF9C6600869363 /* Agent Based App with StoryboardsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D8A13C41BCF9C6500869363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D8A13CE1BCF9C6600869363 /* Assets.xcassets in Resources */,
+				2D8A13D11BCF9C6600869363 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D8A13D51BCF9C6600869363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D8A13E01BCF9C6600869363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D8A13C21BCF9C6500869363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D8A13CC1BCF9C6600869363 /* ViewController.swift in Sources */,
+				2D8A13CA1BCF9C6600869363 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D8A13D31BCF9C6600869363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D8A13DC1BCF9C6600869363 /* Agent_Based_App_with_StoryboardsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D8A13DE1BCF9C6600869363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D8A13E71BCF9C6600869363 /* Agent_Based_App_with_StoryboardsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D8A13D91BCF9C6600869363 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D8A13C51BCF9C6500869363 /* Agent Based App with Storyboards */;
+			targetProxy = 2D8A13D81BCF9C6600869363 /* PBXContainerItemProxy */;
+		};
+		2D8A13E41BCF9C6600869363 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D8A13C51BCF9C6500869363 /* Agent Based App with Storyboards */;
+			targetProxy = 2D8A13E31BCF9C6600869363 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D8A13CF1BCF9C6600869363 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D8A13D01BCF9C6600869363 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D8A13E91BCF9C6600869363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D8A13EA1BCF9C6600869363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2D8A13EC1BCF9C6600869363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Agent Based App with Storyboards/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.davidcodes.Agent-Based-App-with-Storyboards";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2D8A13ED1BCF9C6600869363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Agent Based App with Storyboards/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.davidcodes.Agent-Based-App-with-Storyboards";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2D8A13EF1BCF9C6600869363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Agent Based App with StoryboardsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.davidcodes.Agent-Based-App-with-StoryboardsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Agent Based App with Storyboards.app/Contents/MacOS/Agent Based App with Storyboards";
+			};
+			name = Debug;
+		};
+		2D8A13F01BCF9C6600869363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Agent Based App with StoryboardsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.davidcodes.Agent-Based-App-with-StoryboardsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Agent Based App with Storyboards.app/Contents/MacOS/Agent Based App with Storyboards";
+			};
+			name = Release;
+		};
+		2D8A13F21BCF9C6600869363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Agent Based App with StoryboardsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.davidcodes.Agent-Based-App-with-StoryboardsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Agent Based App with Storyboards";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2D8A13F31BCF9C6600869363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Agent Based App with StoryboardsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.davidcodes.Agent-Based-App-with-StoryboardsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Agent Based App with Storyboards";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8A13C11BCF9C6500869363 /* Build configuration list for PBXProject "Agent Based App with Storyboards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D8A13E91BCF9C6600869363 /* Debug */,
+				2D8A13EA1BCF9C6600869363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8A13EB1BCF9C6600869363 /* Build configuration list for PBXNativeTarget "Agent Based App with Storyboards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D8A13EC1BCF9C6600869363 /* Debug */,
+				2D8A13ED1BCF9C6600869363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2D8A13EE1BCF9C6600869363 /* Build configuration list for PBXNativeTarget "Agent Based App with StoryboardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D8A13EF1BCF9C6600869363 /* Debug */,
+				2D8A13F01BCF9C6600869363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2D8A13F11BCF9C6600869363 /* Build configuration list for PBXNativeTarget "Agent Based App with StoryboardsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D8A13F21BCF9C6600869363 /* Debug */,
+				2D8A13F31BCF9C6600869363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D8A13BE1BCF9C6500869363 /* Project object */;
+}
