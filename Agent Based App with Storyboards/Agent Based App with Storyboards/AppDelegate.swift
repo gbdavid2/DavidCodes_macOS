@@ -33,14 +33,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         self.statusItem?.image?.size = NSSize(width: 20, height: 18)
         self.statusItem?.length = 70
         // image should be set as tempate so that it changes when the user sets the menu bar to a dark theme
-        // TODO: feature disabled for now, this may possibly be the issue to why it is not showing in Nell's mac
         self.statusItem?.image?.template = true
         
         // Set the menu that should appear when the item is clicked
         self.statusItem!.menu = self.menu
         
-        // Set if the item should ”
-        //change color when clicked
+        // Set if the item should change color when clicked
         self.statusItem!.highlightMode = true
         
         
