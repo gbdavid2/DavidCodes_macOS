@@ -387,6 +387,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = LaunchAppExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = uk.davidcodes.LaunchAppExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -399,6 +400,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = LaunchAppExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = uk.davidcodes.LaunchAppExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -475,6 +477,7 @@
 				2DCCAA531BD782C600F96405 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DCCAA541BD782C600F96405 /* Build configuration list for PBXNativeTarget "LaunchAppExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +486,7 @@
 				2DCCAA561BD782C600F96405 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DCCAA571BD782C600F96405 /* Build configuration list for PBXNativeTarget "LaunchAppExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +495,7 @@
 				2DCCAA591BD782C600F96405 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

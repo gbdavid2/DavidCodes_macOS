@@ -11,19 +11,13 @@ import Cocoa
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
-    //static  var statusItem: NSStatusItem?
-    var menu: NSMenu!
+    @IBOutlet weak var menu: NSMenu!
     var statusItem: NSStatusItem?
 
     
 
     func applicationDidFinishLaunching(aNotification: NSNotification) {
-        // Insert code here to initialize your application
-        
-        
-        // Make a status bar that has variable length
-        // (as opposed to being a standard square size)
-        
+        // Make a status bar that has variable length (as opposed to being a standard square size)
         // -1 to indicate "variable length"
         self.statusItem = NSStatusBar.systemStatusBar().statusItemWithLength(-1)
         
@@ -40,7 +34,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         // Set if the item should change color when clicked
         self.statusItem!.highlightMode = true
-        
         
     }
 
